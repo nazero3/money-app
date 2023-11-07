@@ -23,6 +23,7 @@ function PaymentForm() {
                 </label>
                 <br />
                 <label>select category 
+                    <br/>
                     <select name="category" value={expense.category} onChange={handleExpenseChange}>
                         <option value="essentials">Essentials</option>
                         <option value="luxury">Luxury</option>
