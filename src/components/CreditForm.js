@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './CreditForm.css'
 
 
 function CreditForm(){
@@ -8,10 +9,10 @@ function CreditForm(){
     }
 
     return(
-        <div>
-            <h2>Enter salary</h2>
-            <form>
-                <input
+        <div className="container">
+            <h2>Enter credit</h2>
+            <form >
+                <input 
                     type="text"
                     name="amount"
                     placeholder="enter amount"
@@ -19,7 +20,7 @@ function CreditForm(){
                     onChange={handleExpenseChange}
                 />
                 
-                <button type="submit">Add Credit</button>
+                <button  type="submit">Add Credit</button>
             </form>
         </div>
     )

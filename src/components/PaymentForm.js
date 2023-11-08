@@ -1,4 +1,4 @@
-import './PaymentForm.css'
+import styles from'./PaymentForm.css'
 import { useState } from "react";
 
 
@@ -11,7 +11,7 @@ function PaymentForm() {
     return (
         <div>
             <h2>Enter payment</h2>
-            <form className='container'>
+            <form className={styles.container}>
                 <label>amount
                     <input
                         type="text"
