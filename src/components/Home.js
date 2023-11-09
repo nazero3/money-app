@@ -1,12 +1,13 @@
 import "../App.css";
+import "./Home.css"
 
 function Home() {
   return (
-    <div className="app">
-      <header className="App-header">
+    <div className="container">
+      <header >
         <h1> Money Management App</h1>
-        <a href="/payment-form"> Payment Form</a>
-        <a href="/credit-form"> Credit Form</a>
+        <button><a href="/payment-form"> Payment Form</a> </button>
+        <button><a href="/credit-form"> Credit Form</a></button>
       </header>
     </div>
   );
